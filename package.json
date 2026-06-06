@@ -10,7 +10,12 @@
   "author": "",
   "license": "ISC",
   "type": "module",
-  "exports": {
-    ".": "./src/utils.js"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilippoNeg/JS-Utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FilippoNeg/JS-Utilities/issues"
+  },
+  "homepage": "https://github.com/FilippoNeg/JS-Utilities#readme"
 }
