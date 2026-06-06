@@ -28,7 +28,7 @@ export function showEl(element) {
 }
 
 export function concealEl(element) {
-    if (element.classList.contains('concealed')) {
+    if (!element.classList.contains('concealed')) {
         element.classList.add('concealed');
     }
 }

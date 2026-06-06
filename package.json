@@ -2,7 +2,6 @@
   "name": "js-utilities",
   "version": "0.1.0",
   "description": "JS common utility functions",
-  "main": "./src/utils.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +9,9 @@
   "author": "",
   "license": "ISC",
   "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FilippoNeg/JS-Utilities.git"
