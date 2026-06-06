@@ -1,0 +1,16 @@
+{
+  "name": "js-utilities",
+  "version": "0.1.0",
+  "description": "JS common utility functions",
+  "main": "./src/utils.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "exports": {
+    ".": "./src/utils.js"
+  }
+}
